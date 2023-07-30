@@ -1,0 +1,15 @@
+{
+    "name": "asif/laravel-model-logs",
+    "autoload": {
+        "psr-4": {
+            "Asif\\LaravelModelLogs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Asif\\LaravelModelLogs\\Providers\\LaravelModelLogsServiceProvider"
+            ]
+        }
+    }
+}
